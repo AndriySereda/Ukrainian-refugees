@@ -1,0 +1,88 @@
+/* Obnuleniye CSS STILEY */
+/* menyaet pods4et shirini bloka, 4tobi udobney bilo verstat */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Menyaem linii obvodki */
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+/* delaet ix blo4nimi*/
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+/* uravnivayut povedenie shriftof i elementov dlya raznix brauzerov*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 20px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* nasledovat semeystvo shrifta */
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+/* ubirayut nekotorie osobennosti, otstupi v raznix brauzerax,
+4istyatsya stili markirovannix spiskov  */
+input::-ms-clear {
+  display: none;
+}
+
+/* ubiraet krestik v pole teksta v IExplorer */
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+/* obnulyaem vse zagolovki H<> */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/* ------------------------------------ */

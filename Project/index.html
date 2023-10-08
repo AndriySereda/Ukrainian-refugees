@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--Оболочка документа. Указываем язык содержимого-->
+<html lang="en">
+
+<head>
+   <!--  Кодировка в  HTML-5 -->
+   <meta charset="UTF-8">
+   <!--Типичный оптимизированный для мобильных устройств сайт-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- Добавим несколько модулей библиотеки AnyChart: модули Core и Geo Map 
+      для визуализации данных, а также geodata для карты-->
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-map.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.11.0/geodata/custom/world/world.js"></script>
+
+     <!--  Для обработки географических координат мы используем библиотеку Proj4js5 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.8.0/proj4.js"></script>
+
+    <!--  для добавления в UI возможности масштабирования нам потребуется AnyChart модуль Common UI и CSS -->
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-ui.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.anychart.com/releases/8.11.0/css/anychart-ui.min.css">
+    <link rel="stylesheet" href="https://cdn.anychart.com/releases/8.11.0/fonts/css/anychart-font.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+   <title>Ukrainian Refugees Map</title>
+</head>
+<!-- Тело страницы -->
+
+<body>
+ 
+      <div id="container"></div>
+  
+   <script src="JS/script.js"></script>
+</body>
+
+</html>
