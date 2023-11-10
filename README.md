@@ -1,5 +1,5 @@
 # Ukrainian-refugees
-Example of a website for the movement of refugees from Ukraine as a result of the war.
+Creating Flow Map website for the movement of refugees from Ukraine
 
 To watch the page result go to:
 
