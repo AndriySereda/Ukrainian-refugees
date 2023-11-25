@@ -113,7 +113,7 @@ anychart.onDocumentReady(function () {
     );
   // Добавление легенды.
   map.legend().enabled(true).position('bottom').padding([20, 0, 0, 0]).fontSize(10);
-  map.legend().title().enabled(true).text('Number of Students').fontSize(13).padding([0, 0, 5, 0]);
+  map.legend().title().enabled(true).text('Number of Refugees').fontSize(13).padding([0, 0, 5, 0]);
   // Установка контейнера.
   map.container('container');
   // Отрисовка карты.
